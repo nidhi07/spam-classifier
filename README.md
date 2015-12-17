@@ -1,5 +1,5 @@
 #Spam Classifier
-A Machine Learning project that classifies an email as [spam](https://en.wikipedia.org/wiki/Email_spam) or [ham](https://wiki.apache.org/spamassassin/Ham).
+A Machine Learning project that uses Support Vector Machine to classify emails as [spam](https://en.wikipedia.org/wiki/Email_spam) or [ham](https://wiki.apache.org/spamassassin/Ham).
 Also, it lists out the words that are most likely to appear in spam emails.
 
 Dated : December 18, 2015
@@ -9,7 +9,7 @@ This project has been tested on:
 * Ubuntu 14.04 LTS
 * RAM : 2GB
 * OS type : 64 bit
-* GNU Octave, version 3.8.1
+* GNU Octave, version 3.8.1 (text interface)
 
 ##Installation Information
 
@@ -34,3 +34,18 @@ The Wiki has some instructions for [installing Octave on OS X systems](http://wi
 #####Installing Octave on Windows
 
 Windows binaries with corresponding source code can be downloaded from [here](https://ftp.gnu.org/gnu/octave/windows/).
+
+##Usage Information
+
+* Download zip
+* Extract and add the emails you want to test(in .txt format) in "TestEmails" folder.
+* Start the terminal and enter the following command to start octave
+`octave`
+* Change your present working directory to the extracted folder ("spam-classifier").
+* Enter the command
+`index`
+ & go along with the flow!!
+
+##Contribute
+
+Develop a graphical user interface that lets user upload the email and displays the result. 
