@@ -40,9 +40,11 @@ Windows binaries with corresponding source code can be downloaded from [here](ht
 * Download zip
 * Extract and add the emails you want to test(in .txt format) in "TestEmails" folder.
 * Start the terminal and enter the following command to start octave
+
 `octave`
 * Change your present working directory to the extracted folder ("spam-classifier").
 * Enter the command
+
 `index`
  & go along with the flow!!
 
