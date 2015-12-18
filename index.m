@@ -27,4 +27,7 @@ end;
 s = input('Ha!! That was an easy one. Wanna challenge me more?? Press y or n : ',"s");
 until (s=='n')
 
+%% ==================== Top Predictors ====================
+fprintf(' \n \n I think these words are the most likely indicators of spam:\n');
 
+topPredictors(model);
